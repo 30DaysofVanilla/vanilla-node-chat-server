@@ -1,0 +1,23 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before,*::after {
+  box-sizing: inherit;
+}
+
+#messageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#submitContainer {
+  display: flex;
+  justify-content: center;
+}
+
+#chatBox {
+  border: 2px solid black;
+  height: 500px;
+  width: 500px;
+}
